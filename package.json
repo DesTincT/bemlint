@@ -1,0 +1,24 @@
+{
+  "name": "bemlint",
+  "version": "0.0.1",
+  "description": "Linting module checks BEM-naming conventions in `class` attribute of the html files",
+  "main": "lib/bemlint.js",
+  "bin": {
+    "bemlint": "bin/bemlint.js"
+  },
+  "keywords": [
+    "bem",
+    "bemlint",
+    "linter"
+  ],
+  "author": "Ivan Sobolev",
+  "license": "MIT",
+  "dependencies": {
+    "bem-naming": "^0.5.1",
+    "debug": "^2.2.0",
+    "glob": "^7.0.0",
+    "jsonminify": "^0.2.3",
+    "optionator": "^0.8.1",
+    "shelljs": "^0.6.0"
+  }
+}
