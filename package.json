@@ -1,6 +1,6 @@
 {
   "name": "bemlint",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Linting module checks BEM-naming conventions in `class` attribute of the html files",
   "main": "lib/bemlint.js",
   "bin": {
