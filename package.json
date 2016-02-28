@@ -1,6 +1,6 @@
 {
   "name": "bemlint",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Linting module checks BEM-naming conventions in `class` attribute of the html files",
   "main": "lib/bemlint.js",
   "bin": {
@@ -20,10 +20,13 @@
   "dependencies": {
     "bem-naming": "^0.5.1",
     "debug": "^2.2.0",
+    "file-entry-cache": "^1.1.1",
     "glob": "^7.0.0",
     "jsonminify": "^0.2.3",
+    "lodash": "^4.5.1",
     "optionator": "^0.8.1",
-    "shelljs": "^0.6.0"
+    "shelljs": "^0.6.0",
+    "ignore": "^2.2.19"
   },
   "bugs": {
     "url": "https://github.com/DesTincT/bemlint/issues"
