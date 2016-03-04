@@ -18,6 +18,7 @@
   "author": "Ivan Sobolev",
   "license": "MIT",
   "dependencies": {
+    "chalk": "^1.0.0",
     "bem-naming": "^0.5.1",
     "debug": "^2.2.0",
     "file-entry-cache": "^1.1.1",
@@ -26,7 +27,11 @@
     "lodash": "^4.5.1",
     "optionator": "^0.8.1",
     "shelljs": "^0.6.0",
-    "ignore": "^2.2.19"
+    "ignore": "^2.2.19",
+    "table": "^3.7.8",
+    "text-table": "~0.2.0",
+    "pluralize": "^1.2.1",
+    "js-yaml": "^3.5.1"
   },
   "bugs": {
     "url": "https://github.com/DesTincT/bemlint/issues"
