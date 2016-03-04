@@ -1,9 +1,8 @@
 # bemlint (Beta-Schmeta)
-This linter checks attribute `class` in accordance to [BEM naming](https://github.com/bem/bem-naming) conventions.
+This linter checks attribute `class` in final `html` files for [BEM naming](https://github.com/bem/bem-naming) conventions.
 
-Based on code from [ESLint](https://github.com/eslint/eslint)
+Initiative cli code based on [ESLint](https://github.com/eslint/eslint)
 
-Not for production use for now.
 
 ## Installation
 
@@ -14,5 +13,10 @@ npm install -g bemlint
 ## Usage
 
 ```
-bemlint test.html test2.html
+bemlint test.html test2.html [options]
 ```
+
+
+## Versions
+
+__v1.1.0__ - added formatters, message generator and few cli updates
