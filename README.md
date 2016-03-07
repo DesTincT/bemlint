@@ -55,4 +55,5 @@ Available: compact|checkstyle|html|json|table|tap|unix|visualstudio|junit|jslint
 
 ## Versions
 
+__v1.2.0__ - minor fixes, readme update
 __v1.1.0__ - added formatters, message generator and few cli updates
