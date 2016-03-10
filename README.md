@@ -1,7 +1,8 @@
 # bemlint
 
-[![Build Status](https://travis-ci.org/DesTincT/bemlint.svg?branch=master)](https://travis-ci.org/DesTincT/bemlint)
-
+[![NPM version][npm-image]][npm-url]
+[![build status][travis-image]][travis-url]
+[![Downloads][downloads-image]][downloads-url]
 
 This linter checks attribute `class` in final `html` files for [BEM naming](https://github.com/bem/bem-naming) conventions.
 
@@ -67,8 +68,9 @@ bemlint test.html --er='['isBlockElementInBlock']'
 
 
 
-## Versions
-- __v1.4.0__ - ignore-path update, regex match better and minor
-- __v1.3.0__ - minor fixes, some tests added
-- __v1.2.0__ - minor fixes, readme update
-- __v1.1.0__ - added formatters, message generator and few cli updates
+[npm-image]: https://img.shields.io/npm/v/bemlint.svg?style=flat-square
+[npm-url]: https://www.npmjs.com/package/bemlint
+[travis-image]: https://img.shields.io/travis/DesTincT/bemlint/master.svg?style=flat-square
+[travis-url]: https://travis-ci.org/DesTincT/bemlint
+[downloads-image]: https://img.shields.io/npm/dm/bemlint.svg?style=flat-square
+[downloads-url]: https://www.npmjs.com/package/bemlint
