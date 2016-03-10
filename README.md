@@ -45,6 +45,16 @@ bemlint test.html --f='stylish'
 ```
 Available: compact|checkstyle|html|json|table|tap|unix|visualstudio|junit|jslint-xml|html-template-message|html-template-page|html-template-result
 
+- __--er/--exclude-rules__ - Array of rules ids to exclude from lint: 
+```
+bemlint test.html --er='['isBlockElementInBlock']'
+```
+
+- __--no-ignore__ - Disable use of .bemlintignore 
+```
+bemlint test.html --er='['isBlockElementInBlock']'
+```
+
 ## Rules
 - `dublicate` - finds same classes in one attribute
 - `isBlockElementInBlock` - Block and his element cannot be in one place, wrong => `class="b-block b-block__element`
