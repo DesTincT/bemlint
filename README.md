@@ -57,7 +57,7 @@ bemlint test.html --er='['isBlockElementInBlock']'
 
 - __--no-ignore__ - Disable use of .bemlintignore 
 ```
-bemlint test.html --er='['isBlockElementInBlock']'
+bemlint test.html --no-ignore
 ```
 
 ## Rules
