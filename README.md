@@ -54,6 +54,7 @@ Available: compact|checkstyle|html|json|table|tap|unix|visualstudio|junit|jslint
 
 
 ## Versions
-
+- __v1.4.0__ - ignore-path update, regex match better and minor
+- __v1.3.0__ - minor fixes, some tests added
 - __v1.2.0__ - minor fixes, readme update
 - __v1.1.0__ - added formatters, message generator and few cli updates
