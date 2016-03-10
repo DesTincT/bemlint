@@ -1,4 +1,8 @@
 # bemlint
+
+[![Build Status](https://travis-ci.org/DesTincT/bemlint.svg?branch=master)](https://travis-ci.org/DesTincT/bemlint)
+
+
 This linter checks attribute `class` in final `html` files for [BEM naming](https://github.com/bem/bem-naming) conventions.
 
 Initiative cli code based on [ESLint](https://github.com/eslint/eslint)
