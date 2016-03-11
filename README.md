@@ -24,33 +24,33 @@ bemlint test.html test2.html [options]
 
 ## Options
 
-- __--elem/--e__ - element delimeter, default: 
+- __--elem/-e__ - element delimeter, default: 
 ```
 bemlint test.html --elem='__'
 ```
 
-- __--mod/--m__ - modifier and value delimeter, default: 
+- __--mod/-m__ - modifier and value delimeter, default: 
 ```
 bemlint test.html --mod='_'
 ```
 
-- __--wp/--wordPattern__ - regex, defines proper names for blocks, default: 
+- __--wordPattern/-wp__ - regex, defines proper names for blocks, default: 
 ```
 bemlint test.html --wp='[a-z0-9]+(?:-[a-z0-9]+)*'
 ```
 
-- __--bp/--bem-prefixes__ - array of block names prefix for lint, example: 
+- __--bem-prefixes/-bp__ - array of block names prefix for lint, example: 
 ```
 bemlint test.html --bp='['b-', 'l-', 'helper-']'
 ```
 
-- __--f/--format__ - specific output format, default: 
+- __--format/-f__ - specific output format, default: 
 ```
 bemlint test.html --f='stylish'
 ```
 Available: compact|checkstyle|html|json|table|tap|unix|visualstudio|junit|jslint-xml|html-template-message|html-template-page|html-template-result
 
-- __--er/--exclude-rules__ - Array of rules ids to exclude from lint: 
+- __--exclude-rules/-er__ - Array of rules ids to exclude from lint: 
 ```
 bemlint test.html --er='['isBlockElementInBlock']'
 ```
