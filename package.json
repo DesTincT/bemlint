@@ -4,7 +4,7 @@
   "description": "Linting module checks BEM-naming conventions in `class` attribute of the html files",
   "main": "./lib/bemlint.js",
   "bin": {
-    "bemlint": "./bin/bemlint.js",
+    "bemlint": "./bin/bemlint.js"
   },
   "repository": {
     "type": "git",
