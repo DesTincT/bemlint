@@ -21,6 +21,10 @@ npm install -g bemlint
 bemlint test.html test2.html [options]
 ```
 
+## Sublime-Linter
+You can use it with [SublimeLinter-contrib-bemlint](https://github.com/DesTincT/SublimeLinter-contrib-bemlint) plugin.
+
+![Sublime Plugin](/sublime.png?raw=true "Screenshot")
 
 ## Options
 
