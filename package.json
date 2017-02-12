@@ -1,7 +1,7 @@
 {
   "name": "bemlint",
-  "version": "1.4.7",
-  "description": "Linting module checks BEM-naming conventions in `class` attribute of the html files",
+  "version": "1.5.0",
+  "description": "This linter checks attribute class in final html files for BEM-naming conventions.",
   "main": "./lib/bemlint.js",
   "bin": {
     "bemlint": "./bin/bemlint.js"
@@ -18,21 +18,21 @@
   "author": "Ivan Sobolev",
   "license": "MIT",
   "dependencies": {
-    "bem-naming": "^0.5.1",
+    "@bem/naming": "2.0.0-3",
     "chalk": "^1.0.0",
-    "cheerio": "^0.20.0",
-    "debug": "^2.2.0",
-    "file-entry-cache": "^1.1.1",
-    "glob": "^7.0.0",
-    "ignore": "^3.0.10",
-    "js-yaml": "^3.5.1",
-    "jsonminify": "^0.2.3",
-    "lodash": "^4.5.1",
-    "optionator": "^0.8.1",
-    "pluralize": "^1.2.1",
-    "shelljs": "^0.6.0",
-    "table": "^3.7.8",
-    "text-table": "~0.2.0"
+    "cheerio": "0.20.0",
+    "debug": "2.2.0",
+    "file-entry-cache": "1.1.1",
+    "glob": "7.0.0",
+    "ignore": "3.0.10",
+    "js-yaml": "3.5.1",
+    "jsonminify": "0.2.3",
+    "lodash": "4.5.1",
+    "optionator": "0.8.1",
+    "pluralize": "1.2.1",
+    "shelljs": "0.6.0",
+    "table": "3.7.8",
+    "text-table": "0.2.0"
   },
   "bugs": {
     "url": "https://github.com/DesTincT/bemlint/issues"

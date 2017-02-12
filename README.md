@@ -21,6 +21,20 @@ npm install -g bemlint
 bemlint test.html test2.html [options]
 ```
 
+## Loading via require
+
+```
+var bemlint = require("bemlint");
+var options = { //not necessary
+  elem: '__',
+  mod: '_',
+  wordPattern: '[a-z0-9]+(?:-[a-z0-9]+)*',
+  excludeRules: [], //rules ids
+};
+
+//get array of messages
+bemlint.verify('<div class="b-dropdown b-dropdown__element"><div class="b-dropdown__element"></div></div>', options);
+```
 ## Sublime-Linter
 You can use it with [SublimeLinter-contrib-bemlint](https://github.com/DesTincT/SublimeLinter-contrib-bemlint) plugin.
 
@@ -28,40 +42,45 @@ You can use it with [SublimeLinter-contrib-bemlint](https://github.com/DesTincT/
 
 ## Options
 
-- __--elem/-e__ - element delimeter, default: 
+- __--elem/--e__ - element delimeter, default: 
 ```
 bemlint test.html --elem='__'
 ```
 
-- __--mod/-m__ - modifier and value delimeter, default: 
+- __--mod/--m__ - modifier and value delimeter, default: 
 ```
 bemlint test.html --mod='_'
 ```
 
-- __--wordPattern/-wp__ - regex, defines proper names for blocks, default: 
+- __--wordPattern/--wp__ - regex, defines proper names for blocks, default: 
 ```
-bemlint test.html -wp='[a-z0-9]+(?:-[a-z0-9]+)*'
-```
-
-- __--bem-prefixes/-bp__ - array of block names prefix for lint, example: 
-```
-bemlint test.html -bp='['b-', 'l-', 'helper-']'
+bemlint test.html --wp='[a-z0-9]+(?:-[a-z0-9]+)*'
 ```
 
-- __--format/-f__ - specific output format, default: 
+- __--bem-prefixes/--bp__ - array of block names prefix for lint, example: 
 ```
-bemlint test.html -f='stylish'
+bemlint test.html --bp='['b-', 'l-', 'helper-']'
+```
+
+- __--format/--f__ - specific output format, default: 
+```
+bemlint test.html --f='stylish'
 ```
 Available: compact|checkstyle|html|json|table|tap|unix|visualstudio|junit|jslint-xml|html-template-message|html-template-page|html-template-result
 
-- __--exclude-rules/-er__ - Array of rules ids to exclude from lint: 
+- __--exclude-rules/--er__ - Array of rules ids to exclude from lint: 
 ```
-bemlint test.html -er='['isBlockElementInBlock']'
+bemlint test.html --er='['isBlockElementInBlock']'
 ```
 
 - __--no-ignore__ - Disable use of .bemlintignore 
 ```
 bemlint test.html --no-ignore
+```
+
+- __--exclude-selectors/--es__ - Array of selectors, which will be removed from validating 
+```
+bemlint test.html --exclude-selectors='['code *', '.no-bemname-validate']'
 ```
 
 ## Rules
