@@ -1,6 +1,6 @@
 {
   "name": "bemlint",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "description": "This linter checks attribute class in final html files for BEM-naming conventions.",
   "main": "./lib/bemlint.js",
   "bin": {
