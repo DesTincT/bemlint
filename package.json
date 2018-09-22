@@ -21,7 +21,7 @@
     "@bem/naming": "2.0.0-3",
     "chalk": "^1.0.0",
     "cheerio": "0.20.0",
-    "debug": "2.2.0",
+    "debug": "2.6.9",
     "file-entry-cache": "1.1.1",
     "glob": "7.0.0",
     "ignore": "3.0.10",
