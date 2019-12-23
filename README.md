@@ -10,7 +10,7 @@ Initiative cli code based on [ESLint](https://github.com/eslint/eslint)
 
 ## Important
 
-To use latest version of plugin update `bemlint` itself for 1.6.0 version!
+To use latest version of plugin update `bemlint` itself for 1.7.0 version!
 
 ## Installation
 
@@ -84,6 +84,11 @@ bemlint test.html --no-ignore
 - __--exclude-selectors/--es__ - Array of selectors, which will be removed from validating
 ```
 bemlint test.html --exclude-selectors='['code *', '.no-bemname-validate']'
+```
+
+- __--errors/--error__ - Prints all messages as errors
+```
+bemlint test.html --errors
 ```
 
 ## Rules
