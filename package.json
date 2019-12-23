@@ -25,9 +25,9 @@
     "file-entry-cache": "1.1.1",
     "glob": "7.0.0",
     "ignore": "3.0.10",
-    "js-yaml": "3.5.1",
+    "js-yaml": "3.13.1",
     "jsonminify": "0.2.3",
-    "lodash": "4.17.5",
+    "lodash": "4.17.12",
     "optionator": "0.8.1",
     "pluralize": "1.2.1",
     "shelljs": "0.6.0",
@@ -40,7 +40,7 @@
   "homepage": "https://github.com/DesTincT/bemlint#readme",
   "devDependencies": {
     "chai": "^3.5.0",
-    "mocha": "^2.4.5"
+    "mocha": "^6.2.2"
   },
   "scripts": {
     "test": "node ./node_modules/mocha/bin/mocha test.js"
