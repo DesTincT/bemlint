@@ -27,7 +27,7 @@
     "ignore": "3.0.10",
     "js-yaml": "3.13.1",
     "jsonminify": "0.2.3",
-    "lodash": "4.17.12",
+    "lodash": "4.17.19",
     "optionator": "0.8.1",
     "pluralize": "1.2.1",
     "shelljs": "0.6.0",
